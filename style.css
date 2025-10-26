@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background:#f9fafc;
+    color:#222;
+}
+
+.navbar{
+    background-color: #1e1e2f;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar .brand{
+    font-size: 1.5rem;
+    font-weight: 600rem;
+}
+
+.nav-links{
+    display: flex;
+    gap:1.5rem;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: aqua;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #00bcd4, #2196f3);
+    color: white;
+}
+
+.hero h1{
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.cta{
+    text-decoration: none;
+    background: white;
+    border-radius: 25px;
+    padding:0.7rem 1.5rem;
+    color: #2196f3;
+    font-weight: 600;
+    transition: color 0.1s ease;
+}
+
+.cta:hover{
+    color:#222;
+    background: #abd318;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.content h2{
+    font-size: 400;
+    color: #11224E;
+}
+
+.content p{
+    font-size: 200;
+    color:#3C467B
+}
+
+.site-footer{
+    background-color: #1e1e2f;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color:white
+}
